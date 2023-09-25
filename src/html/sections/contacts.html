@@ -1,0 +1,37 @@
+<!-- CONTACTS -->
+<section class="contacts" id="contacts">
+    <div class="contacts__row">
+      <div class="contacts__content">
+        <div class="contacts__info">
+          <a href="tel:+74955555555" class="contacts__info-item"
+            >+39 02 3954 5637</a
+          >
+          <a href="mailto:info@picasso-rest.com" class="contacts__info-item"
+            >info@picasso-rest.com</a
+          >
+          <span class="contacts__info-item"
+            >Via delle Forze Armate 353, Milan</span
+          >
+        </div>
+        <div class="contacts__btn-row">
+          <a href="./menu.html" class="btn">Explore the Menu</a>
+          <button
+            data-modal-button="modal-6"
+            class="btn mb-1"
+            type="button"
+          >
+            Have a book
+          </button>
+        </div>
+      </div>
+      <div class="contacts__img">
+        <div class="contacts__img-text">
+          <p>Coffee cocktails and coffee liquor</p>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL -->
+    @@include('./../blocks/modal.html',{
+      "number": "modal-6"
+    })
+</section>

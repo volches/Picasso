@@ -1,0 +1,56 @@
+.btn {
+    display: inline-block;
+    color: $white-color;
+    height: 44px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    background-color: transparent;
+    text-decoration: none;
+    line-height: 44px;
+    border: 1px solid $black-color;
+    text-transform: uppercase;
+
+    white-space: nowrap;
+    transition: all 0.5s;
+
+    &:hover, &:focus, &:active {
+        background-color: transparent;
+        border: 1px solid $text-color;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    /*Tablet*/
+    @media (max-width: 1139px) {
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+
+    @media (max-width:552px){
+        font-size: 15px;
+    }
+
+}
+
+.product .btn {
+    color: $black-color;
+    border-color:$black-color;
+}
+
+
+.wine-menu .btn, .header-top .btn, .salads .btn, .lunch-menu .btn {
+    border-color:$white-color;
+    color: $white-color;
+}
+
+.contacts .btn {
+    color: $background-color-accent;
+    border-color: $background-color-accent;
+}
+
+.main-menu-page .btn, .salads-menu-page .btn, .sea-food-menu-page .btn, .desserts-menu-page .btn, .wine-menu-page .btn {
+    border-color:$white-color;
+}

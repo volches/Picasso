@@ -1,0 +1,36 @@
+<section class="product @@name" id="@@name">
+    <div class="product__row">
+      <div class="product__content">
+        <div class="product__title">
+          <h2 class="h2">@@title<br /><span class="it">&nbsp; @@letter</span>@@letters</h2>
+        </div>
+        <div class="product__content-row">
+          <p>
+            @@text1
+          </p>
+          <p>
+            @@text2
+          </p>
+        </div>
+        <div class="product__btn-row">
+          <a href="@@link" class="btn">Explore the menu</a>
+          <button
+            data-modal-button="@@number"
+            class="btn mb-1"
+            type="button"
+          >
+            Have a book
+          </button>
+        </div>
+      </div>
+      <div class="product__img">
+        <div class="product__img-text">
+          <p>@@dish</p>
+        </div>
+        <div class="mask"></div>
+      </div>
+    </div>
+    @@include('./../blocks/modal.html', {
+        "number": "@@number",
+    })
+  </section>

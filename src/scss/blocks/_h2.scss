@@ -1,0 +1,49 @@
+.h2 {
+    font-family: 'HelveticaNeueCyr';
+    text-transform: uppercase;
+    font-size: 100px;
+    line-height: 1.1;
+
+    @media (max-width: 1299px){
+        font-size: 75px;
+    }
+
+    @media (max-width: 999px){
+        font-size: 65px;
+    }
+
+    /* Mobile */
+    // @media (max-width: 899px) {
+    //     font-size: 50px;
+    // }
+
+    @media (max-width:359px) {
+        font-size: 55px;
+    }
+}
+
+
+
+.wine-menu .h2{
+    color: #fff;
+}
+
+.interior .h2{
+    @media(max-width:1499px) {
+        font-size: 80px;
+    }
+
+    @media(max-width:1330px) {
+        font-size: 75px;
+    }
+
+    @media (max-width: 999px){
+        font-size: 65px;
+    }
+
+    
+
+    @media (max-width:380px) {
+        font-size: 50px;
+    }
+}
