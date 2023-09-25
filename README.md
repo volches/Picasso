@@ -4,7 +4,7 @@
 
 Выполнена верстка многостраничного сайта ресторана. Созданы страницы:
 
-- [Home](https://volches.github.io/Picasso/index.html)
+- [Home](https://volches.github.io/Picasso/)
 
 ## Технологии
 
