@@ -1,0 +1,50 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Picasso restaurant. Menu-page.</title><meta name="description" content="Italian cuisine. Restaurant."/><meta name="keywords" content="italian cuisine, desserts, wine, salads, main"/><meta property="og:type" content="website"/><meta property="og:title" content="Italian cuisine. Restaurant."/><meta property="og:description" content="Italian cuisine. Restaurant."/><meta property="og:image" content="./img/opengraph.jpg"/><link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png"/><link rel="icon" type="image/png" sizes="32x32" href="./img/favicon//favicon-32x32.png"/><link rel="icon" type="image/png" sizes="16x16" href="./img/favicon//favicon-16x16.png"/><link rel="manifest" href="./img/favicon/site.webmanifest"/><link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5"/><meta name="msapplication-TileColor" content="#da532c"/><meta name="theme-color" content="#ffffff"/><link rel="stylesheet" href="./css/main.css"/><style>
+		  .preloader {
+			position: fixed;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-color: #fffcf9;
+			z-index: 1001;
+		  }
+	
+		  .preloader__image {
+			position: relative;
+			width: 130px;
+			height: 130px;
+			z-index: 2000;
+			animation: preloader-rotate;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+		  }
+	
+		  @keyframes preloader-rotate {
+			from {
+			  transform: rotate(0);
+			}
+			to {
+			  transform: rotate(360deg);
+			}
+		  }
+	
+		  .loaded_hiding .preloader {
+			transition: 0.3s opacity;
+			opacity: 0;
+		  }
+	
+		  .loaded .preloader {
+			display: none;
+		  }
+		</style></head><body onselectstart="return false" oncopy="return false"><div class="preloader"> <img class="preloader__image" src="./img/preloader/pizza-preloader.png" alt="pizza"/></div><main class="wrapper"><section class="menu"><h1 class="visually-hidden">Restaurant Picasso menu page.</h1><ul class="menu__list"><li> <a href="./index.html" class="menu__list-item menu__list-item--one"><span class="it">H</span>ome page<svg class="svg-arrow-goris"><use href="./svg/svg-sprite.svg#svg-arrow-goris"/></svg><p>Back to Home</p></a></li><li> <a href="./main-menu-page.html" class="menu__list-item menu__list-item--two"><svg class="svg-diamond"><use href="./svg/svg-sprite.svg#svg-diamond"/></svg><p><span class="it">M</span>ain menu</p></a></li><li> <a href="./salads-menu-page.html" class="menu__list-item menu__list-item--three"><svg class="svg-diamond"><use href="./svg/svg-sprite.svg#svg-diamond"/></svg><p>Salads</p></a></li><li> <a href="./sea-food-menu-page.html" class="menu__list-item menu__list-item--four"><svg class="svg-diamond"><use href="./svg/svg-sprite.svg#svg-diamond"/></svg><p><span class="it">S</span>ea Food Menu</p></a></li><li> <a href="./desserts-menu-page.html" class="menu__list-item menu__list-item--five"><svg class="svg-diamond"><use href="./svg/svg-sprite.svg#svg-diamond"/></svg><p>Desserts</p></a></li><li> <a href="./wine-menu-page.html" class="menu__list-item menu__list-item--six"><svg class="svg-diamond"><use href="./svg/svg-sprite.svg#svg-diamond"/></svg><p><span class="it">D</span>rinks Menu</p></a></li><li> <button data-modal-button="modal-1" class="btn mb-1" type="button"> Have a book</button> <a href="./index.html#contacts" class="menu__list-item menu__list-item--seven"><svg class="svg-diamond"><use href="./svg/svg-sprite.svg#svg-diamond"/></svg><p>Contact<span class="it">s</span></p></a></li></ul><span class="line-cross__vertical"></span><span class="line-cross__gorisontal"></span><div id="modal-1" data-modal class="fade-block none"><div class="modal-window"> <button data-modal-close type="button" class="modal-window__close"><svg class="svg-x"><use href="./svg/svg-sprite.svg#svg-x"/></svg></button><h4 class="modal-window-title">Leave a request</h4><form action="" class="modal-form"><div class="modal-form-item"> <input class="modal-form-input" type="text" name="tel" placeholder="Phone Number*"/></div><div class="modal-form-item"> <input class="modal-form-input" type="text" name="name" placeholder="Your Name"/></div><div class="modal-form-item"> <input class="modal-form-input" type="text" name="time" placeholder="The best time to call"/></div><p> By submitting your contact information, you agree with terms of personal data processing.</p><div class="modal-form-item"> <button type="submit" class="btn">SEND</button></div></form></div></div></section></main><script src="./js/menu.bundle.js"></script><script>
+			window.onload = function () {
+			  document.body.classList.add("loaded_hiding");
+			  window.setTimeout(function () {
+				document.body.classList.add("loaded");
+				document.body.classList.remove("loaded_hiding");
+			  }, 500);
+			};
+		</script></body></html>

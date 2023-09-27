@@ -1,0 +1,92 @@
+<section class="product-page">
+    <div class="product-page__row">
+      <a href="./menu.html" class="product-page__link">
+        <svg class="svg-arrow-goris">
+          <use href="./svg/svg-sprite.svg#svg-arrow-goris" />
+        </svg>
+        <span></span>
+      </a>
+      <div class="product-page__title">
+        <h1 class="visually-hidden">Restaurant Picasso main menu.</h1>
+        <p class="title-big title-big--menu">
+          <span class="it">P</span>icasso Rest
+        </p>
+      </div>
+    </div>
+    <div class="product-page__menu">
+      <div class="swiper product-page-slider anim-items">
+        <div class="swiper-wrapper product-page-slider__wrapper">
+            @@loop('./../blocks/elements/product-page-slider__item.html', './data/@@title-slider.json')
+        </div>
+        <!-- Add Pagination -->
+        <div class="product-page-slider__pagination swiper-pagination"></div>
+      </div>
+      <!-- btns -->
+      <button class="swiper-button-next product-page-slider__btn-next">
+        <svg class="svg-arrow-vert">
+          <use href="./svg/svg-sprite.svg#svg-arrow-vert" />
+        </svg>
+        <p>Next dish</p>
+      </button>
+    </div>
+    <span class="line-cross__vertical"></span>
+    <span class="line-cross__gorisontal"></span>
+    @@if (title === "main-menu") {
+      @@loop('./../blocks/modal-menu.html', [
+        {
+          "id": "modal-1",
+          "name": "main-menu",
+          "number": "one"
+        },
+        {
+          "id": "modal-2",
+          "name": "main-menu",
+          "number": "two"
+        },
+        {
+          "id": "modal-3",
+          "name": "main-menu",
+          "number": "three"
+        },
+        {
+          "id": "modal-4",
+          "name": "main-menu",
+          "number": "four"
+        },
+        {
+          "id": "modal-5",
+          "name": "main-menu",
+          "number": "five"
+        }
+      ])
+    }
+    @@if (title === "salads-menu") {
+      @@loop('./../blocks/modal-menu.html', [
+        {
+          "id": "modal-1",
+          "name": "salads-menu",
+          "number": "one"
+        },
+        {
+          "id": "modal-2",
+          "name": "salads-menu",
+          "number": "two"
+        },
+        {
+          "id": "modal-3",
+          "name": "salads-menu",
+          "number": "three"
+        },
+        {
+          "id": "modal-4",
+          "name": "salads-menu",
+          "number": "four"
+        },
+        {
+          "id": "modal-5",
+          "name": "salads-menu",
+          "number": "five"
+        }
+      ])
+    }
+</section>

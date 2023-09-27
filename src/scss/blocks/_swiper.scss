@@ -16,9 +16,21 @@
 }
 
 .swiper-button-prev, .swiper-button-next{
-    top: unset;
-    left: unset;
-    right: unset;
+    top: unset ;
+    left: unset ;
+    right: unset ;
     position: relative;
     margin-top: unset;
 }
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    display: none;
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    display: none;
+}
+
+
+
+

@@ -44,6 +44,10 @@
         border: 1px solid $white-color;
         
     }
+
+    .svg-arrow-goris{
+        transform: rotate(180deg);
+    }
 }
 
 .modal-menu-window__row {

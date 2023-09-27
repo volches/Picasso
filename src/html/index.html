@@ -91,7 +91,72 @@
 	</head>
 	<body onselectstart="return false" oncopy="return false">
 		@@include('sections/preloader.html')
-		@@include('sections/wrapper.html')
+		<main class="wrapper">
+			@@include('sections/p.html')
+			@@include('sections/header-top.html')
+			@@include('sections/header.html')
+			@@include('sections/intro.html')
+
+
+			<!-- MAIN MENU -->
+			@@include('sections/product.html',{
+			"name": "main-menu",
+			"title": "Main",
+			"letter": "M",
+			"letters": "enu",
+			"text1": "The gastronomic concept of the restaurant is build around simple and common Italian cuisine with the addition of popular items from other European countries, which are combined with wine.",
+			"text2": "In the menu you can find wine, cold and hot snacks, junk food, meat delicacies, dishes cooked on grill, traditional Italian dishes and desserts.",
+			"link": "./main-menu-page.html",
+			"number": "modal-2",
+			"dish": "Roasted duck leg with basil, grilled vegetables and souce.",
+			})
+
+			<!-- SALADS MENU -->
+			@@include('sections/product.html',{
+			"name": "salads",
+			"title": "Salads",
+			"letter": "M",
+			"letters": "enu",
+			"text1": "The gastronomic concept of the restaurant is build around simple and common Italian cuisine with the addition of popular items from other European countries, which are combined with wine.",
+			"text2": "Sommelier Ivan will advise you on the perfect wine for any dish, talk about wine-making traditions, characteristics of varieties and other nuances of creating this drink.",
+			"link": "./salads-menu-page.html",
+			"number": "modal-3",
+			"dish": "Salmon salad with fresh tomato, onion, spinach and lettuce.",
+			})
+
+			<!-- SEA FOOD MENU -->
+			@@include('sections/product.html',{
+			"name": "sea-food",
+			"title": "Sea Food",
+			"letter": "M",
+			"letters": "enu",
+			"text1": "The gastronomic concept of the restaurant is build around simple and common Italian cuisine with the addition of popular items from other European countries, which are combined with wine.",
+			"text2": "In the menu you can find wine, cold and hot snacks, junk food, meat delicacies, dishes cooked on grill, traditional Italian dishes and desserts.",
+			"link": "./sea-food-menu-page.html",
+			"number": "modal-4",
+			"dish": "Black caviar on egg with biscuit.",
+			})
+
+			@@include('sections/lunch.html')
+
+			<!-- WINE MAP -->
+			@@include('sections/product.html',{
+			"name": "wine-menu",
+			"title": "Drinks",
+			"letter": "M",
+			"letters": "enu",
+			"text1": "The gastronomic concept of the restaurant is build around simple and common Italian cuisine with the addition of popular items from other European countries, which are combined with wine.",
+			"text2": "Sommelier Ivan will advise you on the perfect wine for any dish, talk about wine-making traditions, characteristics of varieties and other nuances of creating this drink.",
+			"link": "./wine-menu-page.html",
+			"number": "modal-5",
+			"dish": "Great choice of cocktails and wines.",
+			})
+			
+			@@include('sections/interior.html')
+			@@include('sections/chief-product.html')
+			@@include('sections/news.html')
+			@@include('sections/contacts.html')
+		</main>
 		
 
 		<script src="./js/index.bundle.js"></script>
