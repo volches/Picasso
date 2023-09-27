@@ -1,0 +1,32 @@
+[
+    {
+        "name":"wine-menu",
+        "number": "one",
+        "text": "White wine collection",
+        "id": "modal-1"
+    },
+    {
+        "name":"wine-menu",
+        "number": "two",
+        "text": "Red wine collection",
+        "id": "modal-2"
+    },
+    {
+        "name":"wine-menu",
+        "number": "three",
+        "text": "Cognac",
+        "id": "modal-3"
+    },
+    {
+        "name":"wine-menu",
+        "number": "four",
+        "text": "Coffee cocktails and coffee liquors",
+        "id": "modal-4"
+    },
+    {
+        "name":"wine-menu",
+        "number": "five",
+        "text": "Martini cocktail",
+        "id": "modal-5"
+    }
+]
