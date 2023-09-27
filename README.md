@@ -7,6 +7,9 @@
 Выполнена верстка многостраничного сайта ресторана. Созданы страницы:
 
 - [Home](https://volches.github.io/Picasso/)
+- [Menu](https://volches.github.io/Picasso/menu.html)
+- [Main-Menu](https://volches.github.io/Picasso/main-menu-page.html)
+- [Salads-Menu](https://volches.github.io/Picasso/salads-menu-page.html)
 
 ## Технологии
 
@@ -16,4 +19,5 @@
 - Добавлены модальные окна с возможностью онлайн-бронирования.
 - Реализованы слайдеры swiper:
   - для интерьера ресторана,
-  - для демонстрации фирменных блюд.
+  - для демонстрации фирменных блюд,
+  - для каждой страницы меню
