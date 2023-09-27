@@ -1,0 +1,50 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Picasso restaurant. Sea food menu.</title><meta name="description" content="Italian cuisine. Restaurant."/><meta name="keywords" content="italian cuisine, desserts, wine, salads, main"/><meta property="og:type" content="website"/><meta property="og:title" content="Italian cuisine. Restaurant."/><meta property="og:description" content="Italian cuisine. Restaurant."/><meta property="og:image" content="./img/opengraph.jpg"/><link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png"/><link rel="icon" type="image/png" sizes="32x32" href="./img/favicon//favicon-32x32.png"/><link rel="icon" type="image/png" sizes="16x16" href="./img/favicon//favicon-16x16.png"/><link rel="manifest" href="./img/favicon/site.webmanifest"/><link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5"/><meta name="msapplication-TileColor" content="#da532c"/><meta name="theme-color" content="#ffffff"/><link rel="stylesheet" href="./css/main.css"/><style>
+		  .preloader {
+			position: fixed;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-color: #fffcf9;
+			z-index: 1001;
+		  }
+	
+		  .preloader__image {
+			position: relative;
+			width: 130px;
+			height: 130px;
+			z-index: 2000;
+			animation: preloader-rotate;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+		  }
+	
+		  @keyframes preloader-rotate {
+			from {
+			  transform: rotate(0);
+			}
+			to {
+			  transform: rotate(360deg);
+			}
+		  }
+	
+		  .loaded_hiding .preloader {
+			transition: 0.3s opacity;
+			opacity: 0;
+		  }
+	
+		  .loaded .preloader {
+			display: none;
+		  }
+		</style></head><body onselectstart="return false" oncopy="return false"><div class="preloader"> <img class="preloader__image" src="./img/preloader/pizza-preloader.png" alt="pizza"/></div><main class="wrapper"><section class="product-page"><div class="product-page__row"> <a href="./menu.html" class="product-page__link"><svg class="svg-arrow-goris"><use href="./svg/svg-sprite.svg#svg-arrow-goris"/></svg><span></span></a><div class="product-page__title"><h1 class="visually-hidden">Restaurant Picasso main menu.</h1><p class="title-big title-big--menu"> <span class="it">P</span>icasso Rest</p></div></div><div class="product-page__menu"><div class="swiper product-page-slider anim-items"><div class="swiper-wrapper product-page-slider__wrapper"><div class="swiper-slide product-page-slider__item sea-food-menu-page-slider__item--one"><div class="product-page-slider__content"><p>Baked fish dorado with lemon and herbs</p> <button data-modal-button="modal-1" class="btn mb-1" type="button"> Read more</button></div></div><div class="swiper-slide product-page-slider__item sea-food-menu-page-slider__item--two"><div class="product-page-slider__content"><p>Black caviar on egg with biscuit</p> <button data-modal-button="modal-2" class="btn mb-1" type="button"> Read more</button></div></div><div class="swiper-slide product-page-slider__item sea-food-menu-page-slider__item--three"><div class="product-page-slider__content"><p>Clams stuffed with butter and caviar in spinach sauce</p> <button data-modal-button="modal-3" class="btn mb-1" type="button"> Read more</button></div></div><div class="swiper-slide product-page-slider__item sea-food-menu-page-slider__item--four"><div class="product-page-slider__content"><p>Natural delicious mussels cooked with spices and herbs</p> <button data-modal-button="modal-4" class="btn mb-1" type="button"> Read more</button></div></div><div class="swiper-slide product-page-slider__item sea-food-menu-page-slider__item--five"><div class="product-page-slider__content"><p>Smoked salmon bagel toasts with cheese</p> <button data-modal-button="modal-5" class="btn mb-1" type="button"> Read more</button></div></div></div><div class="product-page-slider__pagination swiper-pagination"></div></div> <button class="swiper-button-next product-page-slider__btn-next"><svg class="svg-arrow-vert"><use href="./svg/svg-sprite.svg#svg-arrow-vert"/></svg><p>Next dish</p></button></div><span class="line-cross__vertical"></span><span class="line-cross__gorisontal"></span><div id="modal-1" data-modal class="fade-menu-block none"><div class="modal-menu-window"> <button data-modal-close type="button" class="modal-menu-window__close"><svg class="svg-arrow-goris"><use href="./svg/svg-sprite.svg#svg-arrow-goris"/></svg><span></span></button><div class="modal-menu-window__row"><div class="modal-sea-food-menu-window__img modal-sea-food-menu-window__img--one"></div><div class="modal-sea-food-menu-window__content modal-sea-food-menu-window__content--one"><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="it">Baked fish dorado with lemon and herbs</span> &#8212; traditional Italian dish in the fresh look of our brand chef Alexey Petrov. <span class="it">Discover the taste!</span></p><div class="modal-sea-food-menu-window__content-row"> <span>Indredients:</span><ul><li>dorado</li><li>lemon</li><li>herbs</li><li>rosemary, thyme</li><li>oil</li></ul></div></div></div></div></div><div id="modal-2" data-modal class="fade-menu-block none"><div class="modal-menu-window"> <button data-modal-close type="button" class="modal-menu-window__close"><svg class="svg-arrow-goris"><use href="./svg/svg-sprite.svg#svg-arrow-goris"/></svg><span></span></button><div class="modal-menu-window__row"><div class="modal-sea-food-menu-window__img modal-sea-food-menu-window__img--two"></div><div class="modal-sea-food-menu-window__content modal-sea-food-menu-window__content--two"><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="it">Black caviar on egg with biscuit</span> &#8212; traditional Italian dish in the fresh look of our brand chef Alexey Petrov. <span class="it">Discover the taste!</span></p><div class="modal-sea-food-menu-window__content-row"> <span>Indredients:</span><ul><li>black caviar</li><li>egg</li><li>biscuit</li></ul></div></div></div></div></div><div id="modal-3" data-modal class="fade-menu-block none"><div class="modal-menu-window"> <button data-modal-close type="button" class="modal-menu-window__close"><svg class="svg-arrow-goris"><use href="./svg/svg-sprite.svg#svg-arrow-goris"/></svg><span></span></button><div class="modal-menu-window__row"><div class="modal-sea-food-menu-window__img modal-sea-food-menu-window__img--three"></div><div class="modal-sea-food-menu-window__content modal-sea-food-menu-window__content--three"><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="it">Clams stuffed with butter and caviar in spinach sauce</span> &#8212; traditional Italian dish in the fresh look of our brand chef Alexey Petrov. <span class="it">Discover the taste!</span></p><div class="modal-sea-food-menu-window__content-row"> <span>Indredients:</span><ul><li>clams</li><li>caviar</li><li>butter</li><li>spinach</li></ul></div></div></div></div></div><div id="modal-4" data-modal class="fade-menu-block none"><div class="modal-menu-window"> <button data-modal-close type="button" class="modal-menu-window__close"><svg class="svg-arrow-goris"><use href="./svg/svg-sprite.svg#svg-arrow-goris"/></svg><span></span></button><div class="modal-menu-window__row"><div class="modal-sea-food-menu-window__img modal-sea-food-menu-window__img--four"></div><div class="modal-sea-food-menu-window__content modal-sea-food-menu-window__content--four"><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="it">Natural delicious mussels cooked with spices and herbs</span> &#8212; traditional Italian dish in the fresh look of our brand chef Alexey Petrov. <span class="it">Discover the taste!</span></p><div class="modal-sea-food-menu-window__content-row"> <span>Indredients:</span><ul><li>mussels</li><li>spices</li><li>herbs</li></ul></div></div></div></div></div><div id="modal-5" data-modal class="fade-menu-block none"><div class="modal-menu-window"> <button data-modal-close type="button" class="modal-menu-window__close"><svg class="svg-arrow-goris"><use href="./svg/svg-sprite.svg#svg-arrow-goris"/></svg><span></span></button><div class="modal-menu-window__row"><div class="modal-sea-food-menu-window__img modal-sea-food-menu-window__img--five"></div><div class="modal-sea-food-menu-window__content modal-sea-food-menu-window__content--five"><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="it">Smoked salmon bagel toasts with cheese, cucumber and salad</span> &#8212; traditional Italian dish in the fresh look of our brand chef Alexey Petrov. <span class="it">Discover the taste!</span></p><div class="modal-sea-food-menu-window__content-row"> <span>Indredients:</span><ul><li>salmon</li><li>toasts</li><li>cheese</li><li>cucumber</li><li>salad</li></ul></div></div></div></div></div></section></main><script src="./js/innerPage.bundle.js"></script><script>
+			window.onload = function () {
+			  document.body.classList.add("loaded_hiding");
+			  window.setTimeout(function () {
+				document.body.classList.add("loaded");
+				document.body.classList.remove("loaded_hiding");
+			  }, 500);
+			};
+		</script></body></html>
