@@ -1,0 +1,93 @@
+<section class="menu">
+    <h1 class="visually-hidden">Restaurant Picasso menu page.</h1>
+    <ul class="menu__list">
+      <li>
+        <a href="./index.html" class="menu__list-item menu__list-item--one"
+          ><span class="it">H</span>ome page
+          <svg class="svg-arrow-goris">
+            <use href="./svg/svg-sprite.svg#svg-arrow-goris" />
+          </svg>
+          <p>Back to Home</p>
+        </a>
+      </li>
+      <!-- Main menu -->
+      <li>
+        <a
+          href="./main-menu-page.html"
+          class="menu__list-item menu__list-item--two"
+        >
+          <svg class="svg-diamond">
+            <use href="./svg/svg-sprite.svg#svg-diamond" />
+          </svg>
+          <p><span class="it">M</span>ain menu</p>
+        </a>
+      </li>
+      <!-- Salads -->
+      <li>
+        <a
+          href="./salads-menu-page.html"
+          class="menu__list-item menu__list-item--three"
+        >
+          <svg class="svg-diamond">
+            <use href="./svg/svg-sprite.svg#svg-diamond" />
+          </svg>
+          <p>Salads</p>
+        </a>
+      </li>
+      <!-- Sea-food -->
+      <li>
+        <a
+          href="./sea-food-menu-page.html"
+          class="menu__list-item menu__list-item--four"
+        >
+          <svg class="svg-diamond">
+            <use href="./svg/svg-sprite.svg#svg-diamond" />
+          </svg>
+          <p><span class="it">S</span>ea Food Menu</p>
+        </a>
+      </li>
+      <!-- Desserts -->
+      <li>
+        <a
+          href="./desserts-menu-page.html"
+          class="menu__list-item menu__list-item--five"
+        >
+          <svg class="svg-diamond">
+            <use href="./svg/svg-sprite.svg#svg-diamond" />
+          </svg>
+          <p>Desserts</p>
+        </a>
+      </li>
+      <!-- Wine map -->
+      <li>
+        <a
+          href="./wine-menu-page.html"
+          class="menu__list-item menu__list-item--six"
+        >
+          <svg class="svg-diamond">
+            <use href="./svg/svg-sprite.svg#svg-diamond" />
+          </svg>
+          <p><span class="it">D</span>rinks Menu</p>
+        </a>
+      </li>
+      <li>
+        <button data-modal-button="modal-1" class="btn mb-1" type="button">
+          Have a book
+        </button>
+        <a
+          href="./index.html#contacts"
+          class="menu__list-item menu__list-item--seven"
+        >
+          <svg class="svg-diamond">
+            <use href="./svg/svg-sprite.svg#svg-diamond" />
+          </svg>
+          <p>Contact<span class="it">s</span></p>
+        </a>
+      </li>
+    </ul>
+    <span class="line-cross__vertical"></span>
+    <span class="line-cross__gorisontal"></span>
+    @@include('./../blocks/modal.html',{
+        "number": "modal-1"
+    })
+  </section>

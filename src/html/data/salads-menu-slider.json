@@ -1,0 +1,32 @@
+[
+    {
+        "name":"salads-menu",
+        "number": "one",
+        "text": "Traditional roast leg of lamb with potatoes",
+        "id": "modal-1"
+    },
+    {
+        "name":"salads-menu",
+        "number": "two",
+        "text": "Venison fillet with thyme and champignons",
+        "id": "modal-2"
+    },
+    {
+        "name":"salads-menu",
+        "number": "three",
+        "text": "Spaghetti piccanti",
+        "id": "modal-3"
+    },
+    {
+        "name":"salads-menu",
+        "number": "four",
+        "text": "Roasted duck leg with watercress and souce",
+        "id": "modal-4"
+    },
+    {
+        "name":"salads-menu",
+        "number": "five",
+        "text": "Mozzarella and tomatoes salad",
+        "id": "modal-5"
+    }
+]

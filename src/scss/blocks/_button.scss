@@ -35,13 +35,13 @@
 
 }
 
-.product .btn {
+.product .btn, .menu .btn {
     color: $black-color;
     border-color:$black-color;
 }
 
 
-.wine-menu .btn, .header-top .btn, .salads .btn, .lunch-menu .btn {
+.wine-menu .btn, .header-top .btn, .salads .btn, .lunch-menu .btn, .product-page-slider__content .btn {
     border-color:$white-color;
     color: $white-color;
 }
