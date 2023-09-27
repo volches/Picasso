@@ -10,6 +10,10 @@
 - [Menu](https://volches.github.io/Picasso/menu.html)
 - [Main-Menu](https://volches.github.io/Picasso/main-menu-page.html)
 - [Salads-Menu](https://volches.github.io/Picasso/salads-menu-page.html)
+- [Desserts-Menu](https://volches.github.io/Picasso/desserts-menu-page.html)
+- [Wine-Menu](https://volches.github.io/Picasso/wine-menu-page.html)
+- [Sea-Food-Menu](https://volches.github.io/Picasso/sea-food-menu-page.html)
+
 
 ## Технологии
 
