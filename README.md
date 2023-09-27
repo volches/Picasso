@@ -14,6 +14,7 @@
 - [Wine-Menu](https://volches.github.io/Picasso/wine-menu-page.html)
 - [Sea-Food-Menu](https://volches.github.io/Picasso/sea-food-menu-page.html)
 
+
 ## Технологии
 
 - В работе использованы технологии HTML, CSS3, JS, препроцессор SASS, gulp-сборка с различными плагинами (gulp-file-include и т.д.).
